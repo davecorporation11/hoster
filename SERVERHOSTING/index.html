@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+ <title>Hoster</title>
+
+    <input type="text" id="name" placeholder="Jméno" required>
+    <input type="email" id="email" placeholder="E-mail" required>
+    <textarea id="pozadavky" placeholder="Požadavky a funkce serveru"></textarea>
+     <button onclick="sendMail()">Vytvořit server</button>
+
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("user_qRDgTlF2QASUqPCkzHk1Q");
+})();
+</script>
+
+<script src="index.js"></script>

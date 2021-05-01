@@ -2,6 +2,7 @@ function sendMail(params) {
     var tempParams ={
         from_name:document.getElementById('name').value,
         message:document.getElementById('pozadavky').value,
+        mail:document.getElementById('e-mail').value,
     };
     emailjs.send('service_74zks7g','template_dapxlql',tempParams)
     .then(function(res){

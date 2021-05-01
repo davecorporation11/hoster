@@ -7,8 +7,6 @@ function sendMail(params) {
     emailjs.send('service_74zks7g','template_dapxlql',tempParams)
     .then(function(res){
         document.write("Váš požadavek zpracováváme.Pošleme vám e-mail s odkazem na vaši e-mailovou adresu.Naše e-mailová adresa je davecorporation@outlook.cz kde můžete poslat i zpětnou vazbu.!")
-         alert("Váš požadavek zpracováváme.Pošleme vám e-mail s odkazem na vaši e-mailovou adresu.Naše e-mailová adresa je davecorporation@outlook.cz kde můžete poslat i zpětnou vazbu.!");
-        alert("V emailu bude i kód který zadáte do SECURITY SYSTEMu po odkliknutí OK pod touto zprávou");
         security();
     })
 }

@@ -1,4 +1,4 @@
 # hoster
-provides and creates minecraft servers
-free hosting
-1 minecraft server 
+provides and creates MINECRAFT SERVERS
+
+free hosting = 1 minecraft server 

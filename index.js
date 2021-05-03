@@ -9,8 +9,7 @@ function sendMail(params) {
         var finish = loadSound("https://davecorporation11.github.io/hoster/finish.mp3");
         finish.play();
         finish.SetVolume(0.3);
-        document.write("Váš požadavek zpracováváme.Pošleme vám e-mail s odkazem na vaši e-mailovou adresu.Naše e-mailová adresa je davecorporation@outlook.cz kde můžete poslat i zpětnou vazbu.!")
-        security();
+        document.write("Váš požadavek zpracováváme.Pošleme vám e-mail s odkazem na vaši e-mailovou adresu.Naše e-mailová adresa je davecorporation@outlook.cz kde můžete poslat i zpětnou vazbu.!");
         
     })
 }
